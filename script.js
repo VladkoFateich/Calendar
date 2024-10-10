@@ -48,7 +48,6 @@ function drawList(dispYear, dispMonth) {
     let li = document.createElement('li');
     li.textContent = i;
     list.append(li);
-
     if (
       i === currentDay &&
       dispMonth === currentMonth &&
